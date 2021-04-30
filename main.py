@@ -31,7 +31,7 @@ def parse_arg():
     Returns:
         [dict] - dictionary of received arguments
     """
-    parser = argparse.ArgumentParser(description="To cheese OS Chapter 2 algortihm related questions\n\nHow to use:\n\t1. run `algo -g > input.json & input.json`\n\t2. Fill in the algorithm and inputs\n\t3. Save the file\n\t4. run `algo -i input.json`", formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(description="To cheese OS Chapter 2 algortihm related questions\n\nHow to use:\n\t1. run `algo -g > input.json & notepad input.json`\n\t2. Fill in the algorithm and inputs\n\t3. Save the file\n\t4. run `algo -i input.json`", formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-g', '--generate-json', action='store_true',
                         help="Print a sample of JSON needed for this program")
     parser.add_argument(
